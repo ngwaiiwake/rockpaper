@@ -1,0 +1,80 @@
+.App {
+  text-align: center;
+  margin: auto;
+}
+
+.App-logo {
+  height: 30vmin;
+  pointer-events: none;
+  color: coral;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+.App-link {
+  color: #61dafb;
+}
+
+
+.one{
+  display: flex;
+  flex-direction: column;
+  background: #282c34;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.two{
+  color: blue;
+  display: flex;
+  flex-direction: column;
+  font-size: xx-large;
+  padding-bottom: 30px;
+  gap: 20px;
+}
+.butts{
+  display: flex;
+  gap: 10px;
+  padding-top: 40px;
+  
+}
+.rocks{
+  height: 60px;
+  width: 60px;
+  background: transparent;
+}
+@media (prefers-reduced-motion: no-preference) {
+.icon{
+  height: 40px;
+  width: 40px;
+  animation: icon-spin infinite 10s linear
+}
+}
+@keyframes icon-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.saw{
+  padding-bottom: 10px;
+}
+.for{
+  color: black;}
+  
+
+  @media (prefers-reduced-motion: no-preference) {
+    .icons{
+      height: 50px;
+      width: 60px;
+      animation: icon-spin infinite 10s linear
+    }
+    }
